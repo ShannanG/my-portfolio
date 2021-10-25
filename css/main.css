@@ -87,6 +87,143 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  outline: 1px solid red;
+}
+
+/*---------- Base Header - Footer Styles ----------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-divider {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-content {
+
+
+}
+
+footer .contact {
+
+
+}
+
+footer .social {
+  
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .meet {
+
+}
+
+footer .meet-me {
+
+}
+
+
+footer .copyright {
+
+}
+
+/* ---------- Mobile Styles ---------- */
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.services .services-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Portfolio */
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.portfolio .portfolio-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

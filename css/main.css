@@ -91,6 +91,11 @@ textarea {
   outline: 1px solid red;
 }
 
+/* ---------- General Styles ---------- */
+.content-wrapper {
+  width: 90%;
+}
+
 /*---------- Base Header - Footer Styles ----------*/
 
 header,
@@ -102,23 +107,25 @@ footer {
 }
 
 header {
-
+  margin: 15px 0;
 }
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -126,11 +133,23 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 60%;
+  flex-flow: row wrap;
+}
+
+header nav ul li {
+  width: 100%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 20px 0;
 }
 
 footer .footer-content {
@@ -182,6 +201,14 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  margin: 20px 0 0 0;
+}
+
+.hero-area p {
+  margin: 15px 0;
+}
+
 /* Services */
 
 .services {
@@ -190,12 +217,25 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.services article {
+  width: 60%;
+}
+
 .services .services-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.services h2 {
+  margin: 20px 0 0 0;
+}
+
+.services p {
+  margin: 15px 0 0 0;
+}
+
 
 /* Portfolio */
 
@@ -210,7 +250,17 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
+
+.portfolio h3 {
+  width: 55%;
+}
+
+.portfolio article {
+  width: 100%;
+}
+
 
 /* About */
 
@@ -220,6 +270,7 @@ footer .copyright {
   align-items: center;
   flex-flow: row wrap;
 }
+
 
 
 

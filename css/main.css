@@ -237,27 +237,31 @@ footer .copyright {
 }
 
 
-/* Portfolio */
+/* Portfolio | Homepage and Portfolio Page */
 
-.portfolio {
+.portfolio,
+.full-portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.portfolio .portfolio-items {
+.portfolio .portfolio-items,
+.full-portfolio .portfolio-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.portfolio h3 {
+.portfolio h3,
+.full-portfolio h3 {
   width: 55%;
 }
 
-.portfolio article {
+.portfolio article,
+.full-portfolio article {
   width: 100%;
 }
 

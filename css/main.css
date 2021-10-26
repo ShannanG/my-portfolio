@@ -104,6 +104,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 header {
@@ -188,8 +189,10 @@ footer .meet-me {
 
 
 footer .copyright {
+  width: 50%;
 
 }
+
 
 /* ---------- Mobile Styles ---------- */
 

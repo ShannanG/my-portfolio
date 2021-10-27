@@ -370,8 +370,44 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+
+/* Header */
+
+  header .content-wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
+}
+
+.header-divider {
+  display: none;
+}
+
+header nav {
+  width: 55%;
+}
+
+header nav ul {
+  flex-flow: nowrap;
+}
+
+/* Services */
+
+.services .services-items {
+  flex-flow: nowrap;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1200px;) {
+/* Desktop styles here */
 }
 
 @media print,

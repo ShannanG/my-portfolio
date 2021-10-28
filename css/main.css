@@ -103,7 +103,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
   text-align: center;
 }
 
@@ -116,6 +115,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {
@@ -131,21 +131,30 @@ header figure {
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 100%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 100%;
   flex-flow: row wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
-  width: 100%;
+  width: 60%;
+  padding: 10px 0 0 0;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -153,10 +162,6 @@ footer .content-wrapper {
   margin: 20px 0;
 }
 
-footer .footer-content {
-
-
-}
 
 footer .contact {
 
@@ -189,7 +194,7 @@ footer .meet-me {
 
 
 footer .copyright {
-  width: 50%;
+  width: 70%;
 
 }
 
@@ -210,6 +215,12 @@ footer .copyright {
 
 .hero-area p {
   margin: 15px 0;
+}
+
+.hire-me-bt {
+  display: flex;
+  justify-content: center;
+  width: 30%;
 }
 
 /* Services */
@@ -375,6 +386,10 @@ footer .copyright {
 
 /* Header */
 
+  header {
+  justify-content: space-around;
+}
+
   header .content-wrapper {
   width: 100%;
   justify-content: space-between;
@@ -389,25 +404,75 @@ header figure {
 }
 
 header nav {
-  width: 55%;
+  width: 50%;
 }
 
+
 header nav ul {
+  justify-content: space-between;
   flex-flow: nowrap;
 }
 
 /* Services */
+.services h2 {
+  text-align: center;
+}
 
 .services .services-items {
   flex-flow: nowrap;
 }
 
+/* Portfolio */
+.portfolio h2 {
+  text-align: center;
+}
 
+.portfolio article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 50%;
+  margin: 0 0 30px 0;
+}
+
+/* About */
+.about article {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+
+footer .content-wrapper {
+  width: 100%;
+}
+
+footer article {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+footer .contact,
+footer .social,
+footer .meet {
+  flex-basis: 33.3%;
+}
 
 }
 
 @media only screen and (min-width: 1200px;) {
 /* Desktop styles here */
+
+
+
 }
 
 @media print,

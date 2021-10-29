@@ -289,8 +289,37 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+/* Full Portfolio Page */
+.full-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.full-portfolio .content-wrapper {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.portfolio-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.full-portfolio article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.full-portfolio p {
+  margin: 0 20px;
+}
 
 
 /* ==========================================================================
@@ -466,12 +495,19 @@ footer .meet {
   flex-basis: 33.3%;
 }
 
+/* Full Portfolio Page */
+.full-portfolio p {
+  margin: 0 200px;
+}
+
 }
 
 @media only screen and (min-width: 1200px;) {
 /* Desktop styles here */
 
-
+.full-portfolio p {
+  margin: 0 400px;
+}
 
 }
 

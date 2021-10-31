@@ -92,6 +92,57 @@ textarea {
 }
 
 /* ---------- General Styles ---------- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  color: #26547C;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.75em;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.25em;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+}
+
+p {
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+
+}
+
 .content-wrapper {
   width: 90%;
 }
